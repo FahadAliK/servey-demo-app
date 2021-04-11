@@ -1,0 +1,42 @@
+.Question {
+	/* border: 1px solid black; */
+	padding: 1rem;
+	margin: 2rem;
+}
+
+.Label {
+	text-align: left;
+	display: block;
+	margin-bottom: 1rem;
+}
+
+.Options-Container {
+}
+
+.Options-List {
+}
+.Options-Item {
+	border: 1px solid #d0d9e3;
+	width: 20%;
+	margin: 0 1rem;
+	padding: 1rem;
+	border-radius: 1rem;
+	display: inline-block;
+	background-color: #f1f4f5;
+}
+
+.Options-Item:hover {
+	background-color: #e3f8f8;
+	cursor: pointer;
+}
+
+.Selected {
+	width: 20%;
+	margin: 0 1rem;
+	padding: 1rem;
+	border-radius: 1rem;
+	display: inline-block;
+	background: #1fb4bb;
+	color: #fff;
+	border: 1px solid #1fb4bb;
+}
